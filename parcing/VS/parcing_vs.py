@@ -20,7 +20,6 @@ def get_data(cat_name):
         if response.status_code == 200:
             succes_times += 1
             data = response.json()
-            print(type(data))
             if isinstance(data, dict):
                 stacks = data.get("stacks")
                 for stack in stacks:
