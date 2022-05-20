@@ -67,7 +67,7 @@ def parce():
         # print(f"Total items in page {i}")
 
 
-# Press the green button in the gutter to run the script.
+
 if __name__ == '__main__':
     parce()
 
